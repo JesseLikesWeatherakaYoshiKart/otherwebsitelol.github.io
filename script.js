@@ -1,4 +1,4 @@
-eeconst temp = document.getElementById("temp"),
+const temp = document.getElementById("temp"),
   date = document.getElementById("date-time"),
   condition = document.getElementById("condition"),
   rain = document.getElementById("rain"),
@@ -168,19 +168,17 @@ function updateForecast(data, unit, type) {
 // function to change weather icons
 function getIcon(condition) {
   if (condition === "partly-cloudy-day") {
-    return "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/MostlyCloudyDayV2.svg";
+    return "https://i.ibb.co/PZQXH8V/27.png";
   } else if (condition === "partly-cloudy-night") {
-    return "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/MostlyCloudyNightV2.svg";
+    return "https://i.ibb.co/Kzkk59k/15.png";
   } else if (condition === "rain") {
-    return "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/ModerateRainV2.svg";
+    return "https://i.ibb.co/kBd2NTS/39.png";
   } else if (condition === "clear-day") {
-    return "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/SunnyDayV3.svg";
+    return "https://i.ibb.co/rb4rrJL/26.png";
   } else if (condition === "clear-night") {
-    return "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/ClearNightV3.svg";
-   } else if (condition === "fog") {
-    return "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/FogV2.svg";
+    return "https://i.ibb.co/1nxNGHL/10.png";
   } else {
-    return "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/SunnyDayV3.svg";
+    return "https://i.ibb.co/rb4rrJL/26.png";
   }
 }
 
@@ -189,15 +187,19 @@ function changeBackground(condition) {
   const body = document.querySelector("body");
   let bg = "";
   if (condition === "partly-cloudy-day") {
-    bg = "https://i.ibb.co/qNv7NxZ/pc.webp";
+    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/MostlyCloudyDayV2.svg";
   } else if (condition === "partly-cloudy-night") {
-    bg = "https://i.ibb.co/RDfPqXz/pcn.jpg";
+    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/MostlyCloudyNightV2.svg";
   } else if (condition === "rain") {
-    bg = "https://i.ibb.co/h2p6Yhd/rain.webp";
+    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/ModerateRainV2.svg";
   } else if (condition === "clear-day") {
-    bg = "https://i.ibb.co/WGry01m/cd.jpg";
+    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/SunnyDayV3.svg";
   } else if (condition === "clear-night") {
-    bg = "https://i.ibb.co/kqtZ1Gx/cn.jpg";
+    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/RainV2.svg";  
+  } else if (condition === "windy") {
+    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/WindyV2.svg";
+  } else if (condition === "cloudy") {
+    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/CloudyV3.svg";
   } else {
     bg = "https://i.ibb.co/qNv7NxZ/pc.webp";
   }
@@ -469,9 +471,9 @@ function changeTimeSpan(unit) {
 cities = [
   {
     country: "PK",
-    name: "San Angelo, TX",
-    lat: "31.442778",
-    lng: "-100.450279",
+    name: "Abbottabad",
+    lat: "34.1463",
+    lng: "73.21168",
   },
   {
     country: "PK",
@@ -1516,12 +1518,6 @@ cities = [
     name: "Johi",
     lat: "26.69225",
     lng: "67.61431",
-  },
-  {
-    country: "PK",
-    name: "Goofellow-San Angelo TX",
-    lat: "31.442740647839546",
-    lng: "-100.40538709316976",
   },
   {
     country: "PK",
