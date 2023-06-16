@@ -626,6 +626,13 @@ cities = [
     lng: "68.30215",
   },
   {
+      {
+    country: "US",
+    name: "San Angelo, TX",
+    lat: "31.45774778617981",
+    lng: "-100.44211093525142",
+  },
+  {
     country: "PK",
     name: "Bannu",
     lat: "32.98527",
