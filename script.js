@@ -656,13 +656,6 @@ cities = [
     lng: "70.86853",
   },
   { 
-    {
-    country: "PK",
-    name: "San Angelo, TX",
-    lat: "31.45774778617981",
-    lng: "-100.44211093525142",
-  },
-  {
     country: "PK",
     name: "Bat Khela",
     lat: "34.6178",
