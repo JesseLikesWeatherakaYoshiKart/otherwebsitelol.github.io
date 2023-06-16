@@ -1519,6 +1519,12 @@ cities = [
   },
   {
     country: "PK",
+    name: "Goofellow-San Angelo TX",
+    lat: "31.442740647839546",
+    lng: "-100.40538709316976",
+  },
+  {
+    country: "PK",
     name: "Jām Sāhib",
     lat: "26.29583",
     lng: "68.62917",
