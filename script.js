@@ -168,17 +168,17 @@ function updateForecast(data, unit, type) {
 // function to change weather icons
 function getIcon(condition) {
   if (condition === "partly-cloudy-day") {
-    return "https://i.ibb.co/PZQXH8V/27.png";
+    return "https://files.readme.io/5ef9011-weather_icon_small_ic_partly_cloudy3x.png";
   } else if (condition === "partly-cloudy-night") {
-    return "https://i.ibb.co/Kzkk59k/15.png";
+    return "https://files.readme.io/6af2ec5-weather_icon_small_ic_partly_cloudy_night3x.png";
   } else if (condition === "rain") {
-    return "https://i.ibb.co/kBd2NTS/39.png";
+    return "https://files.readme.io/aab8713-weather_icon_small_ic_rain3x.png";
   } else if (condition === "clear-day") {
-    return "https://i.ibb.co/rb4rrJL/26.png";
+    return "https://files.readme.io/48b265b-weather_icon_small_ic_clear3x.png";
   } else if (condition === "clear-night") {
-    return "https://i.ibb.co/1nxNGHL/10.png";
+    return "https://files.readme.io/a31c783-weather_icon_small_ic_clear_night3x.png";
   } else {
-    return "https://i.ibb.co/rb4rrJL/26.png";
+    return "https://files.readme.io/8d37852-weather_icon_small_ic_fog3x.png";
   }
 }
 
