@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rambla:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
   --primary-color: #5598fd;
@@ -276,4 +276,3 @@ img {
   left: 50%;
   transform: translateX(-50%);
 } 
-
