@@ -1,4 +1,4 @@
-econst temp = document.getElementById("temp"),
+eeconst temp = document.getElementById("temp"),
   date = document.getElementById("date-time"),
   condition = document.getElementById("condition"),
   rain = document.getElementById("rain"),
@@ -177,8 +177,6 @@ function getIcon(condition) {
     return "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/SunnyDayV3.svg";
   } else if (condition === "clear-night") {
     return "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/ClearNightV3.svg";
-    } else if (condition === "windy") {
-    return "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/WindyV2.svg";
    } else if (condition === "fog") {
     return "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/FogV2.svg";
   } else {
