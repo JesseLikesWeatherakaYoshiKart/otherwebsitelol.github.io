@@ -627,7 +627,7 @@ cities = [
   },
   {
       {
-    country: "US",
+    country: "PK",
     name: "San Angelo, TX",
     lat: "31.45774778617981",
     lng: "-100.44211093525142",
