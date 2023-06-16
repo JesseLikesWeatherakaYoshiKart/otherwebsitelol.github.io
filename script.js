@@ -1,4 +1,4 @@
-const temp = document.getElementById("temp"),
+econst temp = document.getElementById("temp"),
   date = document.getElementById("date-time"),
   condition = document.getElementById("condition"),
   rain = document.getElementById("rain"),
@@ -469,9 +469,9 @@ function changeTimeSpan(unit) {
 cities = [
   {
     country: "PK",
-    name: "Abbottabad",
-    lat: "34.1463",
-    lng: "73.21168",
+    name: "San Angelo, TX",
+    lat: "31.442778",
+    lng: "-100.450279",
   },
   {
     country: "PK",
