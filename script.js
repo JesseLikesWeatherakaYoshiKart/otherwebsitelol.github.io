@@ -202,7 +202,6 @@ function changeBackground(condition) {
   body.style.backgroundImage = `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(${bg})`;
 }
 
-//get hours from hh:mm:ss
 function getHour(time) {
   let hour = time.split(":")[0];
   let min = time.split(":")[1];
@@ -3106,5 +3105,6 @@ cities = [
     lng: "67.72562",
   },
 ];
+
 
 
