@@ -187,19 +187,15 @@ function changeBackground(condition) {
   const body = document.querySelector("body");
   let bg = "";
   if (condition === "partly-cloudy-day") {
-    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/MostlyCloudyDayV2.svg";
+    bg = "https://i.ibb.co/qNv7NxZ/pc.webp";
   } else if (condition === "partly-cloudy-night") {
-    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/MostlyCloudyNightV2.svg";
+    bg = "https://i.ibb.co/RDfPqXz/pcn.jpg";
   } else if (condition === "rain") {
-    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/ModerateRainV2.svg";
+    bg = "https://i.ibb.co/h2p6Yhd/rain.webp";
   } else if (condition === "clear-day") {
-    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/SunnyDayV3.svg";
+    bg = "https://i.ibb.co/WGry01m/cd.jpg";
   } else if (condition === "clear-night") {
-    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/RainV2.svg";  
-  } else if (condition === "windy") {
-    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/WindyV2.svg";
-  } else if (condition === "cloudy") {
-    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/CloudyV3.svg";
+    bg = "https://i.ibb.co/kqtZ1Gx/cn.jpg";
   } else {
     bg = "https://i.ibb.co/qNv7NxZ/pc.webp";
   }
