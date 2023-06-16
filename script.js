@@ -24,7 +24,7 @@ const temp = document.getElementById("temp"),
   weekBtn = document.querySelector(".week"),
   weatherCards = document.querySelector("#weather-cards");
 
-let currentCity = "Washington, DC";
+let currentCity = "Washington, DC, United States";
 let currentUnit = "f";
 let hourlyorWeek = "week";
 
