@@ -168,17 +168,17 @@ function updateForecast(data, unit, type) {
 // function to change weather icons
 function getIcon(condition) {
   if (condition === "partly-cloudy-day") {
-    return "https://i.ibb.co/PZQXH8V/27.png";
+    return "https://files.readme.io/5ef9011-weather_icon_small_ic_partly_cloudy3x.png";
   } else if (condition === "partly-cloudy-night") {
-    return "https://i.ibb.co/Kzkk59k/15.png";
+    return "https://files.readme.io/6af2ec5-weather_icon_small_ic_partly_cloudy_night3x.png";
   } else if (condition === "rain") {
-    return "https://i.ibb.co/kBd2NTS/39.png";
+    return "https://files.readme.io/aab8713-weather_icon_small_ic_rain3x.png";
   } else if (condition === "clear-day") {
-    return "https://i.ibb.co/rb4rrJL/26.png";
+    return "https://files.readme.io/48b265b-weather_icon_small_ic_clear3x.png;
   } else if (condition === "clear-night") {
-    return "https://i.ibb.co/1nxNGHL/10.png";
+    return "https://files.readme.io/a31c783-weather_icon_small_ic_clear_night3x.png";
   } else {
-    return "https://i.ibb.co/rb4rrJL/26.png";
+    return "https://files.readme.io/48b265b-weather_icon_small_ic_clear3x.png";
   }
 }
 
@@ -187,17 +187,17 @@ function changeBackground(condition) {
   const body = document.querySelector("body");
   let bg = "";
   if (condition === "partly-cloudy-day") {
-    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/MostlyCloudyDayV2.svg";
+    bg = "https://th.bing.com/th/id/OIP.pnm5iv8e6vwOMgpFcSzmRwHaE5?w=266&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7";
   } else if (condition === "partly-cloudy-night") {
-    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/MostlyCloudyNightV2.svg";
+    bg = "https://th.bing.com/th/id/OIP.4ectA0OFA4z-m40p076yrwHaEK?w=321&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7";
   } else if (condition === "rain") {
-    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/ModerateRainV2.svg";
+    bg = "https://th.bing.com/th/id/OIP.YJrj4GYWoI9_pLVGY83XfwHaEo?w=284&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7";
   } else if (condition === "clear-day") {
-    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/SunnyDayV3.svg";
+    bg = "https://th.bing.com/th/id/OIP.pnm5iv8e6vwOMgpFcSzmRwHaE5?w=266&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7";
   } else if (condition === "clear-night") {
-    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/ClearNightV3.svg";
+    bg = "https://th.bing.com/th/id/OIP.4ectA0OFA4z-m40p076yrwHaEK?w=321&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7";
   } else {
-    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/SunnyDayV3.svg";
+    bg = "https://th.bing.com/th/id/OIP.pnm5iv8e6vwOMgpFcSzmRwHaE5?w=266&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7";
   }
   body.style.backgroundImage = `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(${bg})`;
 }
