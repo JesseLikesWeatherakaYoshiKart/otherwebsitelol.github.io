@@ -269,7 +269,6 @@ img {
 }
 .webcam-map {
   position: absolute;
-  bottom: 100px;
+  bottom: 250px;
   left: 0%;
-  transform: translateX(-50%);
 } 
