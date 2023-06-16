@@ -187,17 +187,17 @@ function changeBackground(condition) {
   const body = document.querySelector("body");
   let bg = "";
   if (condition === "partly-cloudy-day") {
-    bg = "https://i.ibb.co/qNv7NxZ/pc.webp";
+    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/MostlyCloudyDayV2.svg";
   } else if (condition === "partly-cloudy-night") {
-    bg = "https://i.ibb.co/RDfPqXz/pcn.jpg";
+    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/MostlyCloudyNightV2.svg";
   } else if (condition === "rain") {
-    bg = "https://i.ibb.co/h2p6Yhd/rain.webp";
+    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/ModerateRainV2.svg";
   } else if (condition === "clear-day") {
-    bg = "https://i.ibb.co/WGry01m/cd.jpg";
+    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/SunnyDayV3.svg";
   } else if (condition === "clear-night") {
-    bg = "https://i.ibb.co/kqtZ1Gx/cn.jpg";
+    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/ClearNightV3.svg";
   } else {
-    bg = "https://i.ibb.co/qNv7NxZ/pc.webp";
+    bg = "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/SunnyDayV3.svg";
   }
   body.style.backgroundImage = `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(${bg})`;
 }
