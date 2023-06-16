@@ -2337,6 +2337,12 @@ cities = [
   },
   {
     country: "PK",
+    name: "New York City, NY",
+    lat: "40.73061",
+    lng: "-73.93524",
+  },
+  {
+    country: "PK",
     name: "Noorabad",
     lat: "34.25195",
     lng: "71.96656",
