@@ -626,12 +626,6 @@ cities = [
     lng: "68.30215",
   },
   {
-    country: "US",
-    name: "San Angelo, TX",
-    lat: "31.45774",
-    lng: "-100.44211",
-  },
-  {
     country: "PK",
     name: "Bannu",
     lat: "32.98527",
@@ -2628,6 +2622,12 @@ cities = [
     name: "Saidu Sharif",
     lat: "34.74655",
     lng: "72.35568",
+  },
+  {
+    country: "PK",
+    name: "San Angelo, TX",
+    lat: "31.45774",
+    lng: "-100.44211",
   },
   {
     country: "PK",
