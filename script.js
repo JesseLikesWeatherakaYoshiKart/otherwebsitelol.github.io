@@ -82,7 +82,7 @@ getPublicIp();
 // function to get weather data
 function getWeatherData(city, unit, hourlyorWeek) {
   fetch(
-    `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${city}?unitGroup=metric&key=EJ6UBL2JEQGYB3AA4ENASN62J&contentType=json`,
+    `https://api.tomorrow.io/v4/timelines?location=40.75872069597532,-73.98529171943665&fields=temperature&timesteps=1h&units=metric&apikey=SBrMxTtNRqhEVoKstLxaJbuS9Zl5RiJh`,
     {
       method: "GET",
       headers: {},
