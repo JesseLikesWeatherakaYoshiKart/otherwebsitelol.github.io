@@ -36,7 +36,7 @@ img {
 .sidebar {
   width: 30%;
   min-width: 250px;
-  padding: 20px;
+  padding: 25px;
   background: rgba(255, 255, 255, 0.815);
   display: flex;
   flex-direction: column;
