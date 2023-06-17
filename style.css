@@ -14,8 +14,8 @@ body {
   display: flex;
   justify-content: center;
   min-height: 110vh;
-  min-width: 1600px;
-  padding: 55px;
+  min-width: 1300px;
+  padding: 50px;
   background: var(--primary-color);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./images/cd.jpg");
