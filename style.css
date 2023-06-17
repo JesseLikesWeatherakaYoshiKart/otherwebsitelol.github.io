@@ -29,7 +29,7 @@ img {
 .wrapper {
   display: flex;
   width: 1600px;
-  min-width: 1500px;
+  min-width: 1800px;
   border-radius: 20px;
   overflow: hidden;
 }
