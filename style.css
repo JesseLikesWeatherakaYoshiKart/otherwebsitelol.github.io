@@ -13,8 +13,8 @@
 body {
   display: flex;
   justify-content: center;
-  min-height: 130vh;
-  min-width: 1000px;
+  min-height: 100vh;
+  min-width: 1300px;
   padding: 50px;
   background: var(--primary-color);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -28,7 +28,7 @@ img {
 }
 .wrapper {
   display: flex;
-  width: 1300px;
+  width: 1500px;
   min-width: 1000px;
   border-radius: 20px;
   overflow: hidden;
@@ -36,7 +36,7 @@ img {
 .sidebar {
   width: 30%;
   min-width: 250px;
-  padding: 25px;
+  padding: 20px;
   background: rgba(255, 255, 255, 0.815);
   display: flex;
   flex-direction: column;
