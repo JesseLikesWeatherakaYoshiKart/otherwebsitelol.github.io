@@ -28,7 +28,7 @@ img {
 }
 .wrapper {
   display: flex;
-  width: 1600px;
+  width: 1300px;
   min-width: 1400px;
   border-radius: 20px;
   overflow: hidden;
@@ -57,7 +57,7 @@ img {
   border: 1px solid #ced4da;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  padding: 0 15px;
+  padding: 0 30px;
   font-size: 14px;
   color: #495057;
 }
