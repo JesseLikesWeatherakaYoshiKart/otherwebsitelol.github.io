@@ -1053,6 +1053,12 @@ cities = [
   },
   {
     country: "PK",
+    name: "Grovetown, GA",
+    lat: "33.45125",
+    lng: "-82.19892",
+  },
+  {    
+    country: "PK",
     name: "Dhoro Naro",
     lat: "25.50484",
     lng: "69.5709",
