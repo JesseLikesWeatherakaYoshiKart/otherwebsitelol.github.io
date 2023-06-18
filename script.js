@@ -1485,6 +1485,12 @@ cities = [
   },
   {
     country: "PK",
+    name: "Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch",
+    lat: "53.22737",
+    lng: "-4.19764",
+  },
+  {
+    country: "PK",
     name: "Jhang Sadr",
     lat: "31.26981",
     lng: "72.31687",
