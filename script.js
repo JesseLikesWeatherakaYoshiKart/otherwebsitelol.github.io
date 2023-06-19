@@ -188,7 +188,7 @@ function getIcon(condition) {
   } else if (condition === "thunderstorm-night") {
     return "https://files.readme.io/919caa0-weather_icon_small_ic_tstorm_mostly_clear_night3x.png";
   } else {
-    return "https://files.readme.io/8d37852-weather_icon_small_ic_fog3x.png";
+    return "https://files.readme.io/4042728-weather_icon_small_ic_cloudy3x.png";
   }
 }
 
