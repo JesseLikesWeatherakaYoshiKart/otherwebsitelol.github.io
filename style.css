@@ -44,7 +44,7 @@
   margin: 20px 0;
 }
 .condition-rain {
-  font-size: 12px;
+  font-size: 20px;
   text-transform: capitalize;
 }
 .condition-rain div {
@@ -140,13 +140,13 @@
 .main .cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 0px;
+  gap: 25px;
   margin-top: 50px;
 }
 
 .cards .card {
-  width: 100px;
-  height: 130px;
+  width: 120px;
+  height: 150px;
   border-radius: 20px;
   color: #111111;
   background-color: #ffffff;
@@ -174,13 +174,13 @@
 .highlights {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
   margin-top: 50px;
   no.-of-elements: 6;
 }
 .highlights .heading {
   width: 100%;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
   text-transform: capitalize;
 }
