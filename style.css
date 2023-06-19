@@ -68,9 +68,6 @@
   justify-content: space-between;
 }
 ----------------------------------------
-
-
-
 .search {
   display: flex;
   align-items: center;
@@ -92,6 +89,14 @@
 .search input:focus {
   outline: none;
   border: 1px solid var(--primary-color);
+}
+.fas fa-search {
+  width: 5%
+  display: flex;
+  padding-top: 200px;
+  position: relative;
+  border: 5px;
+  color: #f1f1f1;
 }
 .search button {
   min-width: 40px;
