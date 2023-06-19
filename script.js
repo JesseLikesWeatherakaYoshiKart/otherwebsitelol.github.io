@@ -35,13 +35,13 @@ function getDateTime() {
     minute = now.getMinutes();
 
   let days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
+    "Sun",
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
   ];
   // 12 hours format
   hour = hour % 12;
@@ -119,7 +119,7 @@ function getWeatherData(city, unit, hourlyorWeek) {
       sunSet.innerText = covertTimeTo12HourFormat(today.sunset);
     })
     .catch((err) => {
-      alert("City not found in our database");
+      alert("Uh Oh. Looks like we could not find this city. Consider reloading the page, or just wait a few seconds.");
     });
 }
 
@@ -173,10 +173,20 @@ function getIcon(condition) {
     return "https://files.readme.io/6af2ec5-weather_icon_small_ic_partly_cloudy_night3x.png";
   } else if (condition === "rain") {
     return "https://files.readme.io/aab8713-weather_icon_small_ic_rain3x.png";
+  } else if (condition === "overcast") {
+    return "https://files.readme.io/4042728-weather_icon_small_ic_cloudy3x.png";
   } else if (condition === "clear-day") {
     return "https://files.readme.io/48b265b-weather_icon_small_ic_clear3x.png";
+  } else if (condition === "overcast") {
+    return "https://files.readme.io/4042728-weather_icon_small_ic_cloudy3x.png";
   } else if (condition === "clear-night") {
     return "https://files.readme.io/a31c783-weather_icon_small_ic_clear_night3x.png";
+  } else if (condition === "thunderstorm") {
+    return "https://files.readme.io/39fb806-weather_icon_small_ic_tstorm3x.png";
+  } else if (condition === "thunderstorm-day") {
+    return "https://files.readme.io/5bca07a-weather_icon_small_ic_tstorm_mostly_clear3x.png";
+  } else if (condition === "thunderstorm-night") {
+    return "https://files.readme.io/919caa0-weather_icon_small_ic_tstorm_mostly_clear_night3x.png";
   } else {
     return "https://files.readme.io/8d37852-weather_icon_small_ic_fog3x.png";
   }
@@ -259,11 +269,11 @@ function measureUvIndex(uvIndex) {
 // function to get humidity status
 function updateHumidityStatus(humidity) {
   if (humidity <= 30) {
-    humidityStatus.innerText = "Low";
+    humidityStatus.innerText = "Dry";
   } else if (humidity <= 60) {
-    humidityStatus.innerText = "Moderate";
+    humidityStatus.innerText = "Moist";
   } else {
-    humidityStatus.innerText = "High";
+    humidityStatus.innerText = "Muggy";
   }
 }
 
@@ -291,21 +301,20 @@ function updateVisibiltyStatus(visibility) {
 // function to get air quality status
 function updateAirQualityStatus(airquality) {
   if (airquality <= 50) {
-    airQualityStatus.innerText = "Good👌";
+    airQualityStatus.innerText = "Good";
   } else if (airquality <= 100) {
-    airQualityStatus.innerText = "Moderate😐";
+    airQualityStatus.innerText = "Moderate";
   } else if (airquality <= 150) {
-    airQualityStatus.innerText = "Unhealthy for Sensitive Groups😷";
+    airQualityStatus.innerText = "Unhealthy for Sensitive Groups";
   } else if (airquality <= 200) {
-    airQualityStatus.innerText = "Unhealthy😷";
+    airQualityStatus.innerText = "Unhealthy";
   } else if (airquality <= 250) {
-    airQualityStatus.innerText = "Very Unhealthy😨";
+    airQualityStatus.innerText = "Very Unhealthy";
   } else {
-    airQualityStatus.innerText = "Hazardous😱";
+    airQualityStatus.innerText = "Hazardous";
   }
 }
 
-// function to handle search form
 searchForm.addEventListener("submit", (e) => {
   e.preventDefault();
   let location = search.value;
@@ -363,7 +372,7 @@ search.addEventListener("input", function (e) {
   }
 });
 /*execute a function presses a key on the keyboard:*/
-search.addEventListener("keydown", function (e) {
+search.addEventListener("keydown", function (enter) {
   var x = document.getElementById("suggestions");
   if (x) x = x.getElementsByTagName("li");
   if (e.keyCode == 40) {
@@ -3128,6 +3137,5 @@ cities = [
     lng: "67.72562",
   },
 ];
-
 
 
