@@ -1,12 +1,11 @@
-    <div class="wrapper">
-      <div class="sidebar">
-        <div>
-               <link rel="stylesheet" href="style.css">
-          <form class="search" id="search">
-            <input type="text" id="query" placeholder="Search..." />
+<link rel="stylesheet" href="style.css">
+ <div class="header">
+  <body style="background-color:#1c87c9;">
+  <h1><center>The Current Conditons</center></h1>
+              <form class="search" id="search">
+            <input type="text" id="query" placeholder="Search for Cities!" />
             <button><i class="fas fa-search"></i></button>
-          </form>
-          <div class="weather-icon">
+                 <div class="weather-icon">
             <img id="icon" src="https://files.readme.io/48b265b-weather_icon_small_ic_clear3x.png" alt="" />
           </div>
           <div class="temperature">
@@ -14,38 +13,31 @@
             <span class="temp-unit">°F</span>
           </div>
           <div class="date-time">
+         <h3> It is currently: </h3>
             <p id="date-time">Mon, 12:00</p>
           </div>
           <div class="divider"></div>
           <div class="condition-rain">
             <div class="condition">
               <i class="fas fa-cloud"></i>
-              <p id="condition">condition</p>
+              <h2 id="condition">condition</h2>
             </div>
             <div class="rain">
               <i class="fas fa-tint"></i>
               <p id="rain">perc - 0%</p>
-            </div>
-          </div>
-        </div>
-        <div class="location">
-          <div class="location-icon">
-            <i class="fas fa-map-marker-alt"></i>
           </div>
           <div class="location-text">
-            <p id="location">location</p>
+            <h3 id="location">location</h3>
+          </div>
+        </div>
+  <div class="wrapper">
+      <div class="sidebar">
+         </div>
           </div>
         </div>
       </div>
       <div class="main">
         <nav>
-          <ul class="options">
-            <button class="hourly">today</button>
-            <button class="week active">week</button>
-          </ul>
-          <ul class="options units">
-            <button class="celcius active">°C</button>
-            <button class="fahrenheit">°F</button>
           </ul>
         </nav>
         <div class="cards" id="weather-cards"></div>
@@ -96,7 +88,4 @@
             </div>
           </div>
         </div>
-        <p class="credits">View my webcam map <a href="https://www.google.com/maps/d/edit?mid=1Y6EUMYudMY-XU0UbIyKBWrknneSiA0Q&usp=sharing">Here!</p>
-      </div>
-    </div>
-  <script src="script.js"></script>
+   <script src="script.js"></script>
