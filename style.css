@@ -174,7 +174,7 @@
 .highlights {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   margin-top: 50px;
   no.-of-elements: 6;
 }
