@@ -1,54 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Rambla:wght@700&display=swap");
-
-:root {
-  --primary-color: #5598fd;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Rambla', sans-serif;
 }
-body {
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-  min-width: 1300px;
-  padding: 50px;
-  background: var(--primary-color);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./images/cd.jpg");
-  background-size: cover;
-  background-position: center;
-  transition: background-image 0.3s ease;
+
+.header {
+  display: text;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1;
+  margin-center: 660px;
+  padding-center: 606px;
 }
-img {
+.weather-icon {
+  width: 19%;
+  height: 150px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.weather-icon #icon {
+  width: 80%;
+  object-fit: cover;
+}.temperature {
+  display: flex;
+}
+.temperature #temp {
+  font-size: 70px;
+  font-weight: 100;
+  line-height: 1;
+}
+.temperature span {
+  font-size: 40px;
+  margin-top: -10px;
+  display: block;
+}
+.divider {
   width: 100%;
+  height: 1px;
+  background: #e9ecef;
+  margin: 20px 0;
 }
-.wrapper {
+.condition-rain {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.condition-rain div {
   display: flex;
-  width: 1500px;
-  min-width: 1000px;
-  border-radius: 20px;
-  overflow: hidden;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
 }
+.condition-rain div i {
+  width: 20px;
+}
+-----------------------------------
+
 .sidebar {
   width: 30%;
   min-width: 250px;
-  padding: 20px;
+  padding: 50px;
   background: rgba(255, 255, 255, 0.815);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+----------------------------------------
+
+
 
 .search {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 30px;
-  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
   position: relative;
 }
 .search input {
@@ -68,7 +96,7 @@ img {
 .search button {
   min-width: 40px;
   height: 40px;
-  border: none;
+  border: 3px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   background: var(--primary-color);
@@ -102,103 +130,17 @@ img {
 .search ul li.active {
   background-color: #f1f1f1;
 }
-.weather-icon {
-  width: 100%;
-  height: 150px;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 100px;
-}
-.weather-icon #icon {
-  width: 80%;
-  object-fit: cover;
-}
-.temperature {
-  display: flex;
-}
-.temperature #temp {
-  font-size: 70px;
-  font-weight: 100;
-  line-height: 1;
-}
-.temperature span {
-  font-size: 40px;
-  margin-top: -10px;
-  display: block;
-}
-.divider {
-  width: 100%;
-  height: 1px;
-  background: #e9ecef;
-  margin: 20px 0;
-}
-.condition-rain {
-  font-size: 12px;
-  text-transform: capitalize;
-}
-.condition-rain div {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-.condition-rain div i {
-  width: 20px;
-}
-.location {
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-  gap: 10px;
-  margin-top: 10px;
-}
-.main {
-  width: 100%;
-  min-width: 400px;
-  padding: 20px 40px;
-  background-color: #f6f6f8;
-  position: relative;
-  padding-bottom: 90px;
-}
+----------------------------------
 
-.main nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.main nav .options {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
-.main nav .options button {
-  border: none;
-  background: none;
-  font-size: 16px;
-  font-weight: 600;
-  color: #495057;
-  cursor: pointer;
-  text-transform: capitalize;
-}
-.main nav .options button.active {
-  color: var(--primary-color);
-}
-
-.main nav .units button {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  color: #1a1a1a;
-  background-color: #fff;
-}
 .main nav .units button.active {
   color: #fff;
   background-color: #1a1a1a;
 }
+
 .main .cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 0px;
   margin-top: 50px;
 }
 
@@ -206,14 +148,15 @@ img {
   width: 100px;
   height: 130px;
   border-radius: 20px;
-  color: #1a1a1a;
-  background-color: #fff;
+  color: #111111;
+  background-color: #ffffff;
   text-align: center;
   padding: 10px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .card h2 {
   font-size: 15px;
   font-weight: 600;
@@ -233,6 +176,7 @@ img {
   flex-wrap: wrap;
   gap: 20px;
   margin-top: 50px;
+  no.-of-elements: 6;
 }
 .highlights .heading {
   width: 100%;
@@ -267,12 +211,3 @@ img {
   margin-top: 20px;
   text-align: left;
 }
-.credits {
-  text-align: center;
-  font-size: 12px;
-  color: #c2c2c2;
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-} 
