@@ -173,20 +173,10 @@ function getIcon(condition) {
     return "https://files.readme.io/6af2ec5-weather_icon_small_ic_partly_cloudy_night3x.png";
   } else if (condition === "rain") {
     return "https://files.readme.io/aab8713-weather_icon_small_ic_rain3x.png";
-  } else if (condition === "overcast") {
-    return "https://files.readme.io/4042728-weather_icon_small_ic_cloudy3x.png";
   } else if (condition === "clear-day") {
     return "https://files.readme.io/48b265b-weather_icon_small_ic_clear3x.png";
-  } else if (condition === "overcast") {
-    return "https://files.readme.io/4042728-weather_icon_small_ic_cloudy3x.png";
   } else if (condition === "clear-night") {
     return "https://files.readme.io/a31c783-weather_icon_small_ic_clear_night3x.png";
-  } else if (condition === "thunderstorm") {
-    return "https://files.readme.io/39fb806-weather_icon_small_ic_tstorm3x.png";
-  } else if (condition === "thunderstorm-day") {
-    return "https://files.readme.io/5bca07a-weather_icon_small_ic_tstorm_mostly_clear3x.png";
-  } else if (condition === "thunderstorm-night") {
-    return "https://files.readme.io/919caa0-weather_icon_small_ic_tstorm_mostly_clear_night3x.png";
   } else {
     return "https://files.readme.io/4042728-weather_icon_small_ic_cloudy3x.png";
   }
