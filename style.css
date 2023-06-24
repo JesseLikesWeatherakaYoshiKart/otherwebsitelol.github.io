@@ -20,12 +20,14 @@
   text-align: center;
   margin-top: 20px;
   margin-bottom: 100px;
+  top: 58.1%;
 }
 .weather-icon #icon {
   width: 80%;
   object-fit: cover;
 }.temperature {
   display: flex;
+  top: 58.1%;
 }
 .temperature #temp {
   font-size: 70px;
@@ -154,7 +156,7 @@
   height: 150px;
   border-radius: 20px;
   color: #111111;
-  background-color: #ffffff;
+  background-color: #f1f1f1;
   text-align: center;
   padding: 10px 0;
   display: flex;
