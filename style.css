@@ -22,6 +22,7 @@ body {
   background-position: center;
   transition: background-image 0.3s ease;
   height: 1200px;
+  translate: -15px;
 }
 img {
   width: 100%;
@@ -42,6 +43,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  translate: -8px;
 }
 
 .search {
