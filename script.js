@@ -184,6 +184,18 @@ function getIcon(condition) {
     return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/15.png?raw=true";
    } else if (condition === "wind") {
     return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/18.png?raw=true";
+   } else if (condition === "thunder-rain") {
+    return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/47.png?raw=true";
+  } else if (condition === "thunder-rain") {
+    return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/47.png?raw=true";
+  } else if (condition === "thunder-showers-day") {
+    return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/29.png?raw=true";
+  } else if (condition === "thunder-showers-night") {
+    return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/37.png?raw=true";
+  } else if (condition === "snow-showers-day") {
+    return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/32.png?raw=true";
+  } else if (condition === "snow-showers-night") {
+    return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/36.png?raw=true";
   } else {
     return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/05.png?raw=true";
   }
