@@ -3142,6 +3142,2588 @@ cities = [
     lat: "30.38244",
     lng: "67.72562",
   },
+ {
+    name: 'Adrian',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '41.89755000',
+    longitude: '-84.03717000'
+  },
+  {
+    name: 'Albion',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.24310000',
+    longitude: '-84.75303000'
+  },
+  {
+    name: 'Alcona County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '44.71161000',
+    longitude: '-83.34366000'
+  },
+  {
+    name: 'Alger County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '46.45110000',
+    longitude: '-86.54755000'
+  },
+  {
+    name: 'Algonac',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.61858000',
+    longitude: '-82.53230000'
+  },
+  {
+    name: 'Allegan',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.52920000',
+    longitude: '-85.85530000'
+  },
+  {
+    name: 'Allegan County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.51766000',
+    longitude: '-85.91034000'
+  },
+  {
+    name: 'Allen Park',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.25754000',
+    longitude: '-83.21104000'
+  },
+  {
+    name: 'Allendale',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.97225000',
+    longitude: '-85.95365000'
+  },
+  {
+    name: 'Alma',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.37892000',
+    longitude: '-84.65973000'
+  },
+  {
+    name: 'Almont',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.92058000',
+    longitude: '-83.04493000'
+  },
+  {
+    name: 'Alpena',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '45.06168000',
+    longitude: '-83.43275000'
+  },
+  {
+    name: 'Alpena County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '45.06350000',
+    longitude: '-83.46039000'
+  },
+  {
+    name: 'Ann Arbor',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.27756000',
+    longitude: '-83.74088000'
+  },
+  {
+    name: 'Antrim County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '45.00737000',
+    longitude: '-85.17579000'
+  },
+  {
+    name: 'Arenac County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '44.04289000',
+    longitude: '-83.74725000'
+  },
+  {
+    name: 'Argentine',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.79142000',
+    longitude: '-83.84634000'
+  },
+  {
+    name: 'Armada',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.84420000',
+    longitude: '-82.88437000'
+  },
+  {
+    name: 'Athens',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.08866000',
+    longitude: '-85.23471000'
+  },
+  {
+    name: 'Atlanta',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '45.00473000',
+    longitude: '-84.14389000'
+  },
+  {
+    name: 'Au Sable',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '44.41085000',
+    longitude: '-83.33219000'
+  },
+  {
+    name: 'Auburn',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.60336000',
+    longitude: '-84.06970000'
+  },
+  {
+    name: 'Auburn Hills',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.68753000',
+    longitude: '-83.23410000'
+  },
+  {
+    name: 'Bad Axe',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.80196000',
+    longitude: '-83.00078000'
+  },
+  {
+    name: 'Baldwin',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.90112000',
+    longitude: '-85.85173000'
+  },
+  {
+    name: 'Bangor',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.31254000',
+    longitude: '-86.11308000'
+  },
+  {
+    name: 'Baraga',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '46.77854000',
+    longitude: '-88.48902000'
+  },
+  {
+    name: 'Baraga County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '46.69976000',
+    longitude: '-88.35215000'
+  },
+  {
+    name: 'Barnes Lake-Millers Lake',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.17956000',
+    longitude: '-83.31230000'
+  },
+  {
+    name: 'Barry County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.59503000',
+    longitude: '-85.30897000'
+  },
+  {
+    name: 'Bath',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.81864000',
+    longitude: '-84.44859000'
+  },
+  {
+    name: 'Battle Creek',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.31730000',
+    longitude: '-85.17816000'
+  },
+  {
+    name: 'Bay City',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.59447000',
+    longitude: '-83.88886000'
+  },
+  {
+    name: 'Bay County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.72137000',
+    longitude: '-83.94184000'
+  },
+  {
+    name: 'Bay Harbor',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '45.36413000',
+    longitude: '-85.08208000'
+  },
+  {
+    name: 'Beaverton',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.88225000',
+    longitude: '-84.48473000'
+  },
+  {
+    name: 'Beecher',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.09003000',
+    longitude: '-83.69440000'
+  },
+  {
+    name: 'Beechwood',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.79697000',
+    longitude: '-86.12588000'
+  },
+  {
+    name: 'Belding',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.09781000',
+    longitude: '-85.22891000'
+  },
+  {
+    name: 'Bellaire',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '44.98028000',
+    longitude: '-85.21117000'
+  },
+  {
+    name: 'Belleville',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.20476000',
+    longitude: '-83.48521000'
+  },
+  {
+    name: 'Bellevue',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.44337000',
+    longitude: '-85.01805000'
+  },
+  {
+    name: 'Benton Harbor',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.11671000',
+    longitude: '-86.45419000'
+  },
+  {
+    name: 'Benton Heights',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.13115000',
+    longitude: '-86.40724000'
+  },
+  {
+    name: 'Benzie County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '44.61687000',
+    longitude: '-86.13899000'
+  },
+  {
+    name: 'Berkley',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.50309000',
+    longitude: '-83.18354000'
+  },
+  {
+    name: 'Berrien County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '41.91863000',
+    longitude: '-86.42807000'
+  },
+  {
+    name: 'Berrien Springs',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '41.94643000',
+    longitude: '-86.33890000'
+  },
+  {
+    name: 'Bessemer',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '46.48134000',
+    longitude: '-90.05295000'
+  },
+  {
+    name: 'Beulah',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '44.63194000',
+    longitude: '-86.09092000'
+  },
+  {
+    name: 'Beverly Hills',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.52392000',
+    longitude: '-83.22326000'
+  },
+  {
+    name: 'Big Rapids',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.69808000',
+    longitude: '-85.48366000'
+  },
+  {
+    name: 'Bingham Farms',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.51587000',
+    longitude: '-83.27326000'
+  },
+  {
+    name: 'Birch Run',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.25086000',
+    longitude: '-83.79413000'
+  },
+  {
+    name: 'Birmingham',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.54670000',
+    longitude: '-83.21132000'
+  },
+  {
+    name: 'Blissfield',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '41.83255000',
+    longitude: '-83.86244000'
+  },
+  {
+    name: 'Bloomfield Hills',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.58364000',
+    longitude: '-83.24549000'
+  },
+  {
+    name: 'Boyne City',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '45.21668000',
+    longitude: '-85.01394000'
+  },
+  {
+    name: 'Branch County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '41.91611000',
+    longitude: '-85.05903000'
+  },
+  {
+    name: 'Breckenridge',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.40808000',
+    longitude: '-84.47500000'
+  },
+  {
+    name: 'Bridgeport',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.35947000',
+    longitude: '-83.88164000'
+  },
+  {
+    name: 'Bridgman',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '41.94310000',
+    longitude: '-86.55697000'
+  },
+  {
+    name: 'Brighton',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.52948000',
+    longitude: '-83.78022000'
+  },
+  {
+    name: 'Bronson',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '41.87227000',
+    longitude: '-85.19470000'
+  },
+  {
+    name: 'Brooklyn',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.10587000',
+    longitude: '-84.24828000'
+  },
+  {
+    name: 'Brown City',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.21225000',
+    longitude: '-82.98966000'
+  },
+  {
+    name: 'Brownlee Park',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.31893000',
+    longitude: '-85.14249000'
+  },
+  {
+    name: 'Buchanan',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '41.82727000',
+    longitude: '-86.36112000'
+  },
+  {
+    name: 'Buena Vista',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.42030000',
+    longitude: '-83.89858000'
+  },
+  {
+    name: 'Burt',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.23669000',
+    longitude: '-83.90636000'
+  },
+  {
+    name: 'Burton',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.99947000',
+    longitude: '-83.61634000'
+  },
+  {
+    name: 'Byron Center',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.81225000',
+    longitude: '-85.72281000'
+  },
+  {
+    name: 'Cadillac',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '44.25195000',
+    longitude: '-85.40116000'
+  },
+  {
+    name: 'Caledonia',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.78920000',
+    longitude: '-85.51669000'
+  },
+  {
+    name: 'Calhoun County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.24653000',
+    longitude: '-85.00559000'
+  },
+  {
+    name: 'Canadian Lakes',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.57919000',
+    longitude: '-85.30170000'
+  },
+  {
+    name: 'Canton',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.30865000',
+    longitude: '-83.48216000'
+  },
+  {
+    name: 'Capac',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.01253000',
+    longitude: '-82.92799000'
+  },
+  {
+    name: 'Carleton',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.05921000',
+    longitude: '-83.39077000'
+  },
+  {
+    name: 'Caro',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.49073000',
+    longitude: '-83.39885000'
+  },
+  {
+    name: 'Carrollton',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.45864000',
+    longitude: '-83.93025000'
+  },
+  {
+    name: 'Carson City',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.17698000',
+    longitude: '-84.84639000'
+  },
+  {
+    name: 'Cass City',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.60085000',
+    longitude: '-83.17467000'
+  },
+  {
+    name: 'Cass County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '41.91540000',
+    longitude: '-85.99346000'
+  },
+  {
+    name: 'Cassopolis',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '41.91171000',
+    longitude: '-86.01001000'
+  },
+  {
+    name: 'Cedar Springs',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.22336000',
+    longitude: '-85.55142000'
+  },
+  {
+    name: 'Center Line',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.48504000',
+    longitude: '-83.02770000'
+  },
+  {
+    name: 'Centreville',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '41.92338000',
+    longitude: '-85.52832000'
+  },
+  {
+    name: 'Charlevoix',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '45.31806000',
+    longitude: '-85.25840000'
+  },
+  {
+    name: 'Charlevoix County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '45.26715000',
+    longitude: '-85.24017000'
+  },
+  {
+    name: 'Charlotte',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.56365000',
+    longitude: '-84.83582000'
+  },
+  {
+    name: 'Cheboygan',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '45.64696000',
+    longitude: '-84.47448000'
+  },
+  {
+    name: 'Cheboygan County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '45.47294000',
+    longitude: '-84.49206000'
+  },
+  {
+    name: 'Chelsea',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.31807000',
+    longitude: '-84.02181000'
+  },
+  {
+    name: 'Chesaning',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.18475000',
+    longitude: '-84.11497000'
+  },
+  {
+    name: 'Chippewa County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '46.32818000',
+    longitude: '-84.52936000'
+  },
+  {
+    name: 'Clare',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.81947000',
+    longitude: '-84.76863000'
+  },
+  {
+    name: 'Clare County',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '43.98787000',
+    longitude: '-84.84784000'
+  },
+  {
+    name: 'Clarkston',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.73586000',
+    longitude: '-83.41883000'
+  },
+  {
+    name: 'Clawson',
+    countryCode: 'US',
+    stateCode: 'MI',
+    latitude: '42.53337000',
+    longitude: '-83.14632000'
+  },
+  {
+    name: 'Albany',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.63651000',
+    longitude: '-123.10593000'
+  },
+  {
+    name: 'Aloha',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.49428000',
+    longitude: '-122.86705000'
+  },
+  {
+    name: 'Altamont',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '42.20681000',
+    longitude: '-121.73722000'
+  },
+  {
+    name: 'Amity',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.11567000',
+    longitude: '-123.20733000'
+  },
+  {
+    name: 'Ashland',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '42.19458000',
+    longitude: '-122.70948000'
+  },
+  {
+    name: 'Astoria',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '46.18788000',
+    longitude: '-123.83125000'
+  },
+  {
+    name: 'Athena',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.81180000',
+    longitude: '-118.49053000'
+  },
+  {
+    name: 'Aumsville',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.84095000',
+    longitude: '-122.87092000'
+  },
+  {
+    name: 'Baker City',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.77487000',
+    longitude: '-117.83438000'
+  },
+  {
+    name: 'Baker County',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.70923000',
+    longitude: '-117.67534000'
+  },
+  {
+    name: 'Bandon',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.11900000',
+    longitude: '-124.40845000'
+  },
+  {
+    name: 'Banks',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.61872000',
+    longitude: '-123.11428000'
+  },
+  {
+    name: 'Barview',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.35428000',
+    longitude: '-124.31317000'
+  },
+  {
+    name: 'Bay City',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.52260000',
+    longitude: '-123.88930000'
+  },
+  {
+    name: 'Beavercreek',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.28790000',
+    longitude: '-122.53564000'
+  },
+  {
+    name: 'Beaverton',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.48706000',
+    longitude: '-122.80371000'
+  },
+  {
+    name: 'Bend',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.05817000',
+    longitude: '-121.31531000'
+  },
+  {
+    name: 'Benton County',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.49176000',
+    longitude: '-123.42931000'
+  },
+  {
+    name: 'Bethany',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.55789000',
+    longitude: '-122.86760000'
+  },
+  {
+    name: 'Boardman',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.83986000',
+    longitude: '-119.70058000'
+  },
+  {
+    name: 'Brookings',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '42.05261000',
+    longitude: '-124.28398000'
+  },
+  {
+    name: 'Brownsville',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.39346000',
+    longitude: '-122.98481000'
+  },
+  {
+    name: 'Bunker Hill',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.35595000',
+    longitude: '-124.20483000'
+  },
+  {
+    name: 'Burns',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.58626000',
+    longitude: '-119.05410000'
+  },
+  {
+    name: 'Canby',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.26290000',
+    longitude: '-122.69259000'
+  },
+  {
+    name: 'Cannon Beach',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.89177000',
+    longitude: '-123.96153000'
+  },
+  {
+    name: 'Canyon City',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.38960000',
+    longitude: '-118.95023000'
+  },
+  {
+    name: 'Canyonville',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '42.92734000',
+    longitude: '-123.28117000'
+  },
+  {
+    name: 'Carlton',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.29428000',
+    longitude: '-123.17649000'
+  },
+  {
+    name: 'Cascade Locks',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.66984000',
+    longitude: '-121.89064000'
+  },
+  {
+    name: 'Cave Junction',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '42.16289000',
+    longitude: '-123.64812000'
+  },
+  {
+    name: 'Cedar Hills',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.50484000',
+    longitude: '-122.79843000'
+  },
+  {
+    name: 'Cedar Mill',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.52484000',
+    longitude: '-122.81093000'
+  },
+  {
+    name: 'Central Point',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '42.37596000',
+    longitude: '-122.91643000'
+  },
+  {
+    name: 'Chenoweth',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.62762000',
+    longitude: '-121.24341000'
+  },
+  {
+    name: 'Clackamas',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.40762000',
+    longitude: '-122.57037000'
+  },
+  {
+    name: 'Clackamas County',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.18816000',
+    longitude: '-122.22094000'
+  },
+  {
+    name: 'Clatskanie',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '46.10122000',
+    longitude: '-123.20679000'
+  },
+  {
+    name: 'Clatsop County',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '46.01747000',
+    longitude: '-123.71677000'
+  },
+  {
+    name: 'Coburg',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.13707000',
+    longitude: '-123.06648000'
+  },
+  {
+    name: 'Columbia City',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.89011000',
+    longitude: '-122.80705000'
+  },
+  {
+    name: 'Columbia County',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.94377000',
+    longitude: '-123.08805000'
+  },
+  {
+    name: 'Condon',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.23430000',
+    longitude: '-120.18503000'
+  },
+  {
+    name: 'Coos Bay',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.36650000',
+    longitude: '-124.21789000'
+  },
+  {
+    name: 'Coos County',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.18501000',
+    longitude: '-124.09333000'
+  },
+  {
+    name: 'Coquille',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.17705000',
+    longitude: '-124.18761000'
+  },
+  {
+    name: 'Cornelius',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.51984000',
+    longitude: '-123.05983000'
+  },
+  {
+    name: 'Corvallis',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.56457000',
+    longitude: '-123.26204000'
+  },
+  {
+    name: 'Cottage Grove',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.79762000',
+    longitude: '-123.05952000'
+  },
+  {
+    name: 'Creswell',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.91790000',
+    longitude: '-123.02453000'
+  },
+  {
+    name: 'Crook County',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.14219000',
+    longitude: '-120.35658000'
+  },
+  {
+    name: 'Culp Creek',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.70346000',
+    longitude: '-122.84757000'
+  },
+  {
+    name: 'Culver',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.52568000',
+    longitude: '-121.21310000'
+  },
+  {
+    name: 'Curry County',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '42.46661000',
+    longitude: '-124.21534000'
+  },
+  {
+    name: 'Dallas',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.91928000',
+    longitude: '-123.31705000'
+  },
+  {
+    name: 'Damascus',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.41762000',
+    longitude: '-122.45898000'
+  },
+  {
+    name: 'Dayton',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.22067000',
+    longitude: '-123.07621000'
+  },
+  {
+    name: 'Depoe Bay',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.80845000',
+    longitude: '-124.06317000'
+  },
+  {
+    name: 'Deschutes County',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.91488000',
+    longitude: '-121.22789000'
+  },
+  {
+    name: 'Deschutes River Woods',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.99151000',
+    longitude: '-121.35836000'
+  },
+  {
+    name: 'Donald',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.22234000',
+    longitude: '-122.83926000'
+  },
+  {
+    name: 'Douglas County',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.28536000',
+    longitude: '-123.17942000'
+  },
+  {
+    name: 'Drain',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.65873000',
+    longitude: '-123.31870000'
+  },
+  {
+    name: 'Dundee',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.27817000',
+    longitude: '-123.01094000'
+  },
+  {
+    name: 'Dunes City',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.88318000',
+    longitude: '-124.11512000'
+  },
+  {
+    name: 'Durham',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.40206000',
+    longitude: '-122.75287000'
+  },
+  {
+    name: 'Eagle Point',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '42.47263000',
+    longitude: '-122.80282000'
+  },
+  {
+    name: 'Elgin',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.56486000',
+    longitude: '-117.91743000'
+  },
+  {
+    name: 'Enterprise',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.42626000',
+    longitude: '-117.27878000'
+  },
+  {
+    name: 'Estacada',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.28957000',
+    longitude: '-122.33370000'
+  },
+  {
+    name: 'Eugene',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.05207000',
+    longitude: '-123.08675000'
+  },
+  {
+    name: 'Fairview',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.53845000',
+    longitude: '-122.43398000'
+  },
+  {
+    name: 'Florence',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.98262000',
+    longitude: '-124.09984000'
+  },
+  {
+    name: 'Forest Grove',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.51984000',
+    longitude: '-123.11066000'
+  },
+  {
+    name: 'Fossil',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.99819000',
+    longitude: '-120.21614000'
+  },
+  {
+    name: 'Four Corners',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.92790000',
+    longitude: '-122.98371000'
+  },
+  {
+    name: 'Fruitdale',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '42.42206000',
+    longitude: '-123.30811000'
+  },
+  {
+    name: 'Garden Home-Whitford',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.46400000',
+    longitude: '-122.75891000'
+  },
+  {
+    name: 'Gearhart',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '46.02427000',
+    longitude: '-123.91125000'
+  },
+  {
+    name: 'Gervais',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.10818000',
+    longitude: '-122.89760000'
+  },
+  {
+    name: 'Gilliam County',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.37806000',
+    longitude: '-120.21087000'
+  },
+  {
+    name: 'Gladstone',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.38068000',
+    longitude: '-122.59481000'
+  },
+  {
+    name: 'Glide',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.30151000',
+    longitude: '-123.10118000'
+  },
+  {
+    name: 'Gold Beach',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '42.40733000',
+    longitude: '-124.42177000'
+  },
+  {
+    name: 'Gold Hill',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '42.43179000',
+    longitude: '-123.05060000'
+  },
+  {
+    name: 'Grand Ronde',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.06011000',
+    longitude: '-123.60928000'
+  },
+  {
+    name: 'Grant County',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.49125000',
+    longitude: '-119.00738000'
+  },
+  {
+    name: 'Grants Pass',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '42.43933000',
+    longitude: '-123.33067000'
+  },
+  {
+    name: 'Green',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.16039000',
+    longitude: '-123.36785000'
+  },
+  {
+    name: 'Gresham',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.49818000',
+    longitude: '-122.43148000'
+  },
+  {
+    name: 'Happy Valley',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.44679000',
+    longitude: '-122.53037000'
+  },
+  {
+    name: 'Harbor',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '42.05317000',
+    longitude: '-124.26759000'
+  },
+  {
+    name: 'Harney County',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.06402000',
+    longitude: '-118.96787000'
+  },
+  {
+    name: 'Harrisburg',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.27401000',
+    longitude: '-123.17065000'
+  },
+  {
+    name: 'Hayesville',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '44.98595000',
+    longitude: '-122.98287000'
+  },
+  {
+    name: 'Heppner',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.35318000',
+    longitude: '-119.55780000'
+  },
+  {
+    name: 'Hermiston',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.84041000',
+    longitude: '-119.28946000'
+  },
+  {
+    name: 'Hillsboro',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.52289000',
+    longitude: '-122.98983000'
+  },
+  {
+    name: 'Hines',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '43.56404000',
+    longitude: '-119.08105000'
+  },
+  {
+    name: 'Hood River',
+    countryCode: 'US',
+    stateCode: 'OR',
+    latitude: '45.70540000',
+    longitude: '-121.52146000'
+  },
+  {
+    name: 'Aberdeen',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.94408000',
+    longitude: '-112.83833000'
+  },
+  {
+    name: 'Ada County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.45112000',
+    longitude: '-116.24109000'
+  },
+  {
+    name: 'Adams County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '44.88965000',
+    longitude: '-116.45387000'
+  },
+  {
+    name: 'American Falls',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.78602000',
+    longitude: '-112.85444000'
+  },
+  {
+    name: 'Ammon',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.46964000',
+    longitude: '-111.96664000'
+  },
+  {
+    name: 'Arco',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.63657000',
+    longitude: '-113.30028000'
+  },
+  {
+    name: 'Ashton',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '44.07158000',
+    longitude: '-111.44829000'
+  },
+  {
+    name: 'Bannock County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.66851000',
+    longitude: '-112.22463000'
+  },
+  {
+    name: 'Bear Lake County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.28479000',
+    longitude: '-111.32965000'
+  },
+  {
+    name: 'Bellevue',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.46352000',
+    longitude: '-114.26060000'
+  },
+  {
+    name: 'Benewah County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '47.21755000',
+    longitude: '-116.65883000'
+  },
+  {
+    name: 'Bingham County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.21652000',
+    longitude: '-112.39805000'
+  },
+  {
+    name: 'Blackfoot',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.19047000',
+    longitude: '-112.34498000'
+  },
+  {
+    name: 'Blaine County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.41233000',
+    longitude: '-113.98040000'
+  },
+  {
+    name: 'Boise',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.61350000',
+    longitude: '-116.20345000'
+  },
+  {
+    name: 'Boise County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.98913000',
+    longitude: '-115.73024000'
+  },
+  {
+    name: 'Bonner County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '48.29975000',
+    longitude: '-116.60097000'
+  },
+  {
+    name: 'Bonners Ferry',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '48.69133000',
+    longitude: '-116.31631000'
+  },
+  {
+    name: 'Bonneville County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.38773000',
+    longitude: '-111.61493000'
+  },
+  {
+    name: 'Boundary County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '48.76702000',
+    longitude: '-116.46288000'
+  },
+  {
+    name: 'Buhl',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.59907000',
+    longitude: '-114.75949000'
+  },
+  {
+    name: 'Burley',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.53574000',
+    longitude: '-113.79279000'
+  },
+  {
+    name: 'Butte County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.72287000',
+    longitude: '-113.17202000'
+  },
+  {
+    name: 'Caldwell',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.66294000',
+    longitude: '-116.68736000'
+  },
+  {
+    name: 'Camas County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.46325000',
+    longitude: '-114.80585000'
+  },
+  {
+    name: 'Canyon County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.62513000',
+    longitude: '-116.70929000'
+  },
+  {
+    name: 'Caribou County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.77051000',
+    longitude: '-111.56224000'
+  },
+  {
+    name: 'Cascade',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '44.51628000',
+    longitude: '-116.04180000'
+  },
+  {
+    name: 'Cassia County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.28387000',
+    longitude: '-113.60037000'
+  },
+  {
+    name: 'Challis',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '44.50464000',
+    longitude: '-114.23173000'
+  },
+  {
+    name: 'Chubbuck',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.92075000',
+    longitude: '-112.46609000'
+  },
+  {
+    name: 'Clark County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '44.28398000',
+    longitude: '-112.35135000'
+  },
+  {
+    name: 'Clearwater County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '46.67370000',
+    longitude: '-115.65686000'
+  },
+  {
+    name: "Coeur d'Alene",
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '47.67768000',
+    longitude: '-116.78047000'
+  },
+  {
+    name: 'Council',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '44.72989000',
+    longitude: '-116.43820000'
+  },
+  {
+    name: 'Custer County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '44.24142000',
+    longitude: '-114.28180000'
+  },
+  {
+    name: 'Dalton Gardens',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '47.72963000',
+    longitude: '-116.77019000'
+  },
+  {
+    name: 'Driggs',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.72325000',
+    longitude: '-111.11133000'
+  },
+  {
+    name: 'Dubois',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '44.17630000',
+    longitude: '-112.23082000'
+  },
+  {
+    name: 'Eagle',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.69544000',
+    longitude: '-116.35401000'
+  },
+  {
+    name: 'Elmore County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.35390000',
+    longitude: '-115.46918000'
+  },
+  {
+    name: 'Emmett',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.87350000',
+    longitude: '-116.49930000'
+  },
+  {
+    name: 'Fairfield',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.34657000',
+    longitude: '-114.79173000'
+  },
+  {
+    name: 'Filer',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.57019000',
+    longitude: '-114.60782000'
+  },
+  {
+    name: 'Fort Hall',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.03325000',
+    longitude: '-112.43831000'
+  },
+  {
+    name: 'Franklin County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.18117000',
+    longitude: '-111.81323000'
+  },
+  {
+    name: 'Fremont County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '44.22879000',
+    longitude: '-111.48202000'
+  },
+  {
+    name: 'Fruitland',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '44.00766000',
+    longitude: '-116.91655000'
+  },
+  {
+    name: 'Garden City',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.62211000',
+    longitude: '-116.23817000'
+  },
+  {
+    name: 'Gem County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '44.06169000',
+    longitude: '-116.39723000'
+  },
+  {
+    name: 'Glenns Ferry',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.95490000',
+    longitude: '-115.30090000'
+  },
+  {
+    name: 'Gooding',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.93879000',
+    longitude: '-114.71311000'
+  },
+  {
+    name: 'Gooding County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.97090000',
+    longitude: '-114.81152000'
+  },
+  {
+    name: 'Grangeville',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '45.92655000',
+    longitude: '-116.12237000'
+  },
+  {
+    name: 'Hailey',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.51963000',
+    longitude: '-114.31532000'
+  },
+  {
+    name: 'Hansen',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.53068000',
+    longitude: '-114.30101000'
+  },
+  {
+    name: 'Hayden',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '47.76602000',
+    longitude: '-116.78658000'
+  },
+  {
+    name: 'Heyburn',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.55852000',
+    longitude: '-113.76390000'
+  },
+  {
+    name: 'Hidden Spring',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.72216000',
+    longitude: '-116.25093000'
+  },
+  {
+    name: 'Homedale',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.61766000',
+    longitude: '-116.93376000'
+  },
+  {
+    name: 'Idaho City',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.82850000',
+    longitude: '-115.83455000'
+  },
+  {
+    name: 'Idaho County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '45.84420000',
+    longitude: '-115.46745000'
+  },
+  {
+    name: 'Idaho Falls',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.46658000',
+    longitude: '-112.03414000'
+  },
+  {
+    name: 'Iona',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.52630000',
+    longitude: '-111.93302000'
+  },
+  {
+    name: 'Jefferson County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.82014000',
+    longitude: '-112.31128000'
+  },
+  {
+    name: 'Jerome',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.72407000',
+    longitude: '-114.51865000'
+  },
+  {
+    name: 'Jerome County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.68990000',
+    longitude: '-114.26403000'
+  },
+  {
+    name: 'Kamiah',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '46.22712000',
+    longitude: '-116.02931000'
+  },
+  {
+    name: 'Kellogg',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '47.53826000',
+    longitude: '-116.11933000'
+  },
+  {
+    name: 'Ketchum',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.68074000',
+    longitude: '-114.36366000'
+  },
+  {
+    name: 'Kimberly',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.53380000',
+    longitude: '-114.36476000'
+  },
+  {
+    name: 'Kootenai County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '47.67456000',
+    longitude: '-116.70001000'
+  },
+  {
+    name: 'Kuna',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.49183000',
+    longitude: '-116.42012000'
+  },
+  {
+    name: 'Lapwai',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '46.40489000',
+    longitude: '-116.80487000'
+  },
+  {
+    name: 'Latah County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '46.81613000',
+    longitude: '-116.71168000'
+  },
+  {
+    name: 'Lemhi County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '44.94331000',
+    longitude: '-113.93324000'
+  },
+  {
+    name: 'Lewis County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '46.23702000',
+    longitude: '-116.42625000'
+  },
+  {
+    name: 'Lewiston',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '46.41655000',
+    longitude: '-117.01766000'
+  },
+  {
+    name: 'Lewiston Orchards',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '46.38044000',
+    longitude: '-116.97543000'
+  },
+  {
+    name: 'Lincoln',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.51297000',
+    longitude: '-111.96441000'
+  },
+  {
+    name: 'Lincoln County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.00241000',
+    longitude: '-114.13831000'
+  },
+  {
+    name: 'Madison County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.78419000',
+    longitude: '-111.65934000'
+  },
+  {
+    name: 'Malad City',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.19159000',
+    longitude: '-112.25080000'
+  },
+  {
+    name: 'Marsing',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.54544000',
+    longitude: '-116.81320000'
+  },
+  {
+    name: 'McCall',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '44.91101000',
+    longitude: '-116.09874000'
+  },
+  {
+    name: 'Meridian',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.61211000',
+    longitude: '-116.39151000'
+  },
+  {
+    name: 'Middleton',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.70683000',
+    longitude: '-116.62014000'
+  },
+  {
+    name: 'Minidoka County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.85440000',
+    longitude: '-113.63752000'
+  },
+  {
+    name: 'Montpelier',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.32215000',
+    longitude: '-111.29770000'
+  },
+  {
+    name: 'Moreland',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.22269000',
+    longitude: '-112.44248000'
+  },
+  {
+    name: 'Moscow',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '46.73239000',
+    longitude: '-117.00017000'
+  },
+  {
+    name: 'Mountain Home',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.13295000',
+    longitude: '-115.69120000'
+  },
+  {
+    name: 'Murphy',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.21822000',
+    longitude: '-116.55234000'
+  },
+  {
+    name: 'Nampa',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.54072000',
+    longitude: '-116.56346000'
+  },
+  {
+    name: 'New Plymouth',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '43.96989000',
+    longitude: '-116.81904000'
+  },
+  {
+    name: 'Nez Perce County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '46.32676000',
+    longitude: '-116.75024000'
+  },
+  {
+    name: 'Nezperce',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '46.23489000',
+    longitude: '-116.24070000'
+  },
+  {
+    name: 'Oneida County',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '42.19490000',
+    longitude: '-112.53962000'
+  },
+  {
+    name: 'Orofino',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '46.47935000',
+    longitude: '-116.25514000'
+  },
+  {
+    name: 'Osburn',
+    countryCode: 'US',
+    stateCode: 'ID',
+    latitude: '47.50604000',
+    longitude: '-115.99933000'
+  },
+  {
+    name: 'Ashaway',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.42343000',
+    longitude: '-71.78562000'
+  },
+  {
+    name: 'Barrington',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.74066000',
+    longitude: '-71.30866000'
+  },
+  {
+    name: 'Bradford',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.39899000',
+    longitude: '-71.73701000'
+  },
+  {
+    name: 'Bristol',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.67705000',
+    longitude: '-71.26616000'
+  },
+  {
+    name: 'Bristol County',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.70554000',
+    longitude: '-71.28612000'
+  },
+  {
+    name: 'Central Falls',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.89066000',
+    longitude: '-71.39228000'
+  },
+  {
+    name: 'Charlestown',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.38316000',
+    longitude: '-71.64173000'
+  },
+  {
+    name: 'Chepachet',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.91510000',
+    longitude: '-71.67146000'
+  },
+  {
+    name: 'Coventry',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.70010000',
+    longitude: '-71.68284000'
+  },
+  {
+    name: 'Cranston',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.77982000',
+    longitude: '-71.43728000'
+  },
+  {
+    name: 'Cumberland',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.96677000',
+    longitude: '-71.43284000'
+  },
+  {
+    name: 'Cumberland Hill',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.97454000',
+    longitude: '-71.46700000'
+  },
+  {
+    name: 'East Greenwich',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.66038000',
+    longitude: '-71.45589000'
+  },
+  {
+    name: 'East Providence',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.81371000',
+    longitude: '-71.37005000'
+  },
+  {
+    name: 'Exeter',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.57760000',
+    longitude: '-71.53756000'
+  },
+  {
+    name: 'Foster',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.85371000',
+    longitude: '-71.75812000'
+  },
+  {
+    name: 'Greenville',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.87121000',
+    longitude: '-71.55201000'
+  },
+  {
+    name: 'Harrisville',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.96565000',
+    longitude: '-71.67451000'
+  },
+  {
+    name: 'Hope Valley',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.50760000',
+    longitude: '-71.71618000'
+  },
+  {
+    name: 'Hopkinton',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.46121000',
+    longitude: '-71.77757000'
+  },
+  {
+    name: 'Jamestown',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.49705000',
+    longitude: '-71.36728000'
+  },
+  {
+    name: 'Johnston',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.82186000',
+    longitude: '-71.50675000'
+  },
+  {
+    name: 'Kent County',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.67334000',
+    longitude: '-71.57895000'
+  },
+  {
+    name: 'Kingston',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.48038000',
+    longitude: '-71.52256000'
+  },
+  {
+    name: 'Lincoln',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.92111000',
+    longitude: '-71.43500000'
+  },
+  {
+    name: 'Melville',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.58705000',
+    longitude: '-71.28338000'
+  },
+  {
+    name: 'Middletown',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.54566000',
+    longitude: '-71.29144000'
+  },
+  {
+    name: 'Narragansett',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.45010000',
+    longitude: '-71.44950000'
+  },
+  {
+    name: 'Narragansett Pier',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.43232000',
+    longitude: '-71.45644000'
+  },
+  {
+    name: 'New Shoreham',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.17233000',
+    longitude: '-71.55783000'
+  },
+  {
+    name: 'Newport',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.49010000',
+    longitude: '-71.31283000'
+  },
+  {
+    name: 'Newport County',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.49980000',
+    longitude: '-71.28100000'
+  },
+  {
+    name: 'Newport East',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.51579000',
+    longitude: '-71.28752000'
+  },
+  {
+    name: 'North Kingstown',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.55010000',
+    longitude: '-71.46617000'
+  },
+  {
+    name: 'North Providence',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.85010000',
+    longitude: '-71.46617000'
+  },
+  {
+    name: 'North Scituate',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.83177000',
+    longitude: '-71.58729000'
+  },
+  {
+    name: 'North Smithfield',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.96677000',
+    longitude: '-71.54951000'
+  },
+  {
+    name: 'Pascoag',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.95565000',
+    longitude: '-71.70229000'
+  },
+  {
+    name: 'Pawtucket',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.87871000',
+    longitude: '-71.38256000'
+  },
+  {
+    name: 'Portsmouth',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.60232000',
+    longitude: '-71.25033000'
+  },
+  {
+    name: 'Providence',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.82399000',
+    longitude: '-71.41283000'
+  },
+  {
+    name: 'Providence County',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.87136000',
+    longitude: '-71.57860000'
+  },
+  {
+    name: 'Smithfield',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.92204000',
+    longitude: '-71.54951000'
+  },
+  {
+    name: 'South Kingstown',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.44718000',
+    longitude: '-71.52494000'
+  },
+  {
+    name: 'Tiverton',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.62594000',
+    longitude: '-71.21338000'
+  },
+  {
+    name: 'Valley Falls',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.90677000',
+    longitude: '-71.39061000'
+  },
+  {
+    name: 'Wakefield-Peacedale',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.44606000',
+    longitude: '-71.50040000'
+  },
+  {
+    name: 'Warren',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.73038000',
+    longitude: '-71.28255000'
+  },
+  {
+    name: 'Warwick',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.70010000',
+    longitude: '-71.41617000'
+  },
+  {
+    name: 'Washington County',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.39649000',
+    longitude: '-71.61966000'
+  },
+  {
+    name: 'West Greenwich',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.63700000',
+    longitude: '-71.66004000'
+  },
+  {
+    name: 'West Warwick',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.69689000',
+    longitude: '-71.52194000'
+  },
+  {
+    name: 'Westerly',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '41.37760000',
+    longitude: '-71.82729000'
+  },
+  {
+    name: 'Andrews AFB, MD',
+    countryCode: 'US',
+    stateCode: '',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: 'Andrews Manor, MD',
+    countryCode: 'US',
+    stateCode: '',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: 'Camp Springs, MD',
+    countryCode: 'US',
+    stateCode: '',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: 'Washington DC',
+    countryCode: 'US',
+    stateCode: '',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: 'Dover, DE',
+    countryCode: 'US',
+    stateCode: '',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: 'Denver CO',
+    countryCode: 'US',
+    stateCode: '',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: 'Valdez AK',
+    countryCode: 'US',
+    stateCode: '',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: 'Great Falls, MT',
+    countryCode: 'US',
+    stateCode: '',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: 'Anchorage, AK',
+    countryCode: 'US',
+    stateCode: '',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: 'Dallas, TX',
+    countryCode: 'US',
+    stateCode: '',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: 'San Angelo, TX',
+    countryCode: 'US',
+    stateCode: '',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: 'Nuevo Laredo, TX',
+    countryCode: 'US',
+    stateCode: '',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: 'Saragosa, TX',
+    countryCode: 'US',
+    stateCode: '',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: '30813',
+    countryCode: 'US',
+    stateCode: '',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: 'Hamliton, Bermuda',
+    countryCode: 'US',
+    stateCode: '',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: 'Woonsocket',
+    countryCode: 'US',
+    stateCode: 'RI',
+    latitude: '42.00288000',
+    longitude: '-71.51478000'
+  },
 ];
-
 
