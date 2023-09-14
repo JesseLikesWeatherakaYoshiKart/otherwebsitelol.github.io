@@ -269,11 +269,11 @@ function measureUvIndex(uvIndex) {
 // function to get humidity status
 function updateHumidityStatus(humidity) {
   if (humidity <= 30) {
-    humidityStatus.innerText = "Dry";
+    humidityStatus.innerText = "Low";
   } else if (humidity <= 60) {
-    humidityStatus.innerText = "Moist";
+    humidityStatus.innerText = "Moderate";
   } else {
-    humidityStatus.innerText = "Muggy";
+    humidityStatus.innerText = "High";
   }
 }
 
@@ -301,20 +301,21 @@ function updateVisibiltyStatus(visibility) {
 // function to get air quality status
 function updateAirQualityStatus(airquality) {
   if (airquality <= 50) {
-    airQualityStatus.innerText = "Good";
+    airQualityStatus.innerText = "Good👌";
   } else if (airquality <= 100) {
-    airQualityStatus.innerText = "Moderate";
+    airQualityStatus.innerText = "Moderate😐";
   } else if (airquality <= 150) {
-    airQualityStatus.innerText = "Unhealthy for Sensitive Groups";
+    airQualityStatus.innerText = "Unhealthy for Sensitive Groups😷";
   } else if (airquality <= 200) {
-    airQualityStatus.innerText = "Unhealthy";
+    airQualityStatus.innerText = "Unhealthy😷";
   } else if (airquality <= 250) {
-    airQualityStatus.innerText = "Very Unhealthy";
+    airQualityStatus.innerText = "Very Unhealthy😨";
   } else {
-    airQualityStatus.innerText = "Hazardous";
+    airQualityStatus.innerText = "Hazardous😱";
   }
 }
 
+// function to handle search form
 searchForm.addEventListener("submit", (e) => {
   e.preventDefault();
   let location = search.value;
@@ -467,7 +468,6 @@ function changeTimeSpan(unit) {
     getWeatherData(currentCity, currentUnit, hourlyorWeek);
   }
 }
-
 
 
 // Cities add your own to get in search
