@@ -119,7 +119,7 @@ function getWeatherData(city, unit, hourlyorWeek) {
       sunSet.innerText = covertTimeTo12HourFormat(today.sunset);
     })
     .catch((err) => {
-      alert("Uh Oh. Looks like we could not find this city. Consider reloading the page, or just wait a few seconds.");
+      alert("City not found in our database");
     });
 }
 
