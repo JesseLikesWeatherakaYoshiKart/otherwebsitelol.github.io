@@ -372,7 +372,7 @@ search.addEventListener("input", function (e) {
   }
 });
 /*execute a function presses a key on the keyboard:*/
-search.addEventListener("keydown", function (enter) {
+search.addEventListener("keydown", function (e) {
   var x = document.getElementById("suggestions");
   if (x) x = x.getElementsByTagName("li");
   if (e.keyCode == 40) {
@@ -391,6 +391,7 @@ search.addEventListener("keydown", function (enter) {
     addActive(x);
   }
   if (e.keyCode == 13) {
+    /*If the ENTER key is pressed, prevent the form from being submitted,*/
     e.preventDefault();
     if (currentFocus > -1) {
       /*and simulate a click on the "active" item:*/
@@ -664,7 +665,7 @@ cities = [
     lat: "30.78769",
     lng: "70.86853",
   },
-  { 
+  {
     country: "PK",
     name: "Bat Khela",
     lat: "34.6178",
@@ -1061,12 +1062,6 @@ cities = [
     lng: "74.13706",
   },
   {
-    country: "PK",
-    name: "Grovetown, GA",
-    lat: "33.45125",
-    lng: "-82.19892",
-  },
-  {    
     country: "PK",
     name: "Dhoro Naro",
     lat: "25.50484",
@@ -1491,12 +1486,6 @@ cities = [
     name: "Jhang City",
     lat: "31.30568",
     lng: "72.32594",
-  },
-  {
-    country: "PK",
-    name: "Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch",
-    lat: "53.22737",
-    lng: "-4.19764",
   },
   {
     country: "PK",
@@ -2358,12 +2347,6 @@ cities = [
   },
   {
     country: "PK",
-    name: "New York City, NY",
-    lat: "40.73061",
-    lng: "-73.93524",
-  },
-  {
-    country: "PK",
     name: "Noorabad",
     lat: "34.25195",
     lng: "71.96656",
@@ -2649,12 +2632,6 @@ cities = [
     name: "Saidu Sharif",
     lat: "34.74655",
     lng: "72.35568",
-  },
-  {
-    country: "PK",
-    name: "San Angelo, TX",
-    lat: "31.45774",
-    lng: "-100.44211",
   },
   {
     country: "PK",
@@ -3137,4 +3114,5 @@ cities = [
     lng: "67.72562",
   },
 ];
+
 
