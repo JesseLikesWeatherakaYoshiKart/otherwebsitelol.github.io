@@ -474,6 +474,24 @@ cities = [
     lat: "34.1463",
     lng: "73.21168",
   },
+    {
+    country: "PK",
+    name: "Chicago, IL",
+    lat: "41.8375",
+    lng: "-87.6866",
+  },
+  {
+    country: "PK",
+    name: "New York, NY",
+    lat: "40.6943",
+    lng: "-87.6866",
+  },
+  {
+    country: "PK",
+    name: "Sormerset Airport NJ (SMQ)",
+    lat: "40.6943",
+    lng: "-87.6866",
+  },
   {
     country: "PK",
     name: "Adilpur",
