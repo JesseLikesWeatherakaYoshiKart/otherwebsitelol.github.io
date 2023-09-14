@@ -25,7 +25,7 @@ const temp = document.getElementById("temp"),
   weatherCards = document.querySelector("#weather-cards");
 
 let currentCity = "";
-let currentUnit = "c";
+let currentUnit = "f";
 let hourlyorWeek = "week";
 
 // function to get date and time
@@ -131,7 +131,7 @@ function updateForecast(data, unit, type) {
   if (type === "day") {
     numCards = 24;
   } else {
-    numCards = 7;
+    numCards = 14;
   }
   for (let i = 0; i < numCards; i++) {
     let card = document.createElement("div");
