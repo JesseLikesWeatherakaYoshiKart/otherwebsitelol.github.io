@@ -165,7 +165,6 @@ function updateForecast(data, unit, type) {
   }
 }
 
-// function to change weather icons
 function getIcon(condition) {
   if (condition === "partly-cloudy-day") {
     return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/24.png?raw=true";
@@ -200,10 +199,6 @@ function changeBackground(condition) {
     bg = "https://i.ibb.co/WGry01m/cd.jpg";
   } else if (condition === "clear-night") {
     bg = "https://i.ibb.co/kqtZ1Gx/cn.jpg";
-  } else if (condition === "cloudy") {
-    return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgU62FZ8ajEPtqiS1S8pgHkwL-DmdntsTD8Q&usqp=CAU";
-  } else if (condition === "snow") {
-    return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXLoupWIPbipGXnaFqSwIxPNInsRXIOOb7hQ&usqp=CAU";
   } else {
     bg = "https://i.ibb.co/qNv7NxZ/pc.webp";
   }
