@@ -168,27 +168,21 @@ function updateForecast(data, unit, type) {
 // function to change weather icons
 function getIcon(condition) {
   if (condition === "partly-cloudy-day") {
-    return "https://files.readme.io/5ef9011-weather_icon_small_ic_partly_cloudy3x.png";
+    return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/24.png?raw=true";
   } else if (condition === "partly-cloudy-night") {
-    return "https://files.readme.io/6af2ec5-weather_icon_small_ic_partly_cloudy_night3x.png";
+    return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/23.png?raw=true";
   } else if (condition === "rain") {
-    return "https://files.readme.io/aab8713-weather_icon_small_ic_rain3x.png";
-  } else if (condition === "overcast") {
-    return "https://files.readme.io/4042728-weather_icon_small_ic_cloudy3x.png";
+    return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/08.png?raw=true";
   } else if (condition === "clear-day") {
-    return "https://files.readme.io/48b265b-weather_icon_small_ic_clear3x.png";
-  } else if (condition === "overcast") {
-    return "https://files.readme.io/4042728-weather_icon_small_ic_cloudy3x.png";
+    return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/26.png?raw=true";
   } else if (condition === "clear-night") {
-    return "https://files.readme.io/a31c783-weather_icon_small_ic_clear_night3x.png";
-  } else if (condition === "thunderstorm") {
-    return "https://files.readme.io/39fb806-weather_icon_small_ic_tstorm3x.png";
-  } else if (condition === "thunderstorm-day") {
-    return "https://files.readme.io/5bca07a-weather_icon_small_ic_tstorm_mostly_clear3x.png";
-  } else if (condition === "thunderstorm-night") {
-    return "https://files.readme.io/919caa0-weather_icon_small_ic_tstorm_mostly_clear_night3x.png";
+    return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/25.png?raw=true";
+  } else if (condition === "cloudy") {
+    return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/20.png?raw=true";
+  } else if (condition === "snow") {
+    return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/10.png?raw=true";
   } else {
-    return "https://files.readme.io/4042728-weather_icon_small_ic_cloudy3x.png";
+    return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/05.png?raw=true";
   }
 }
 
@@ -197,21 +191,26 @@ function changeBackground(condition) {
   const body = document.querySelector("body");
   let bg = "";
   if (condition === "partly-cloudy-day") {
-    bg = "https://th.bing.com/th/id/OIP.fKd5u-LZ22Q78HfwW_6jywHaEo?w=310&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7";
+    bg = "https://i.ibb.co/qNv7NxZ/pc.webp";
   } else if (condition === "partly-cloudy-night") {
-    bg = "https://th.bing.com/th/id/OIP.fKd5u-LZ22Q78HfwW_6jywHaEo?w=310&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7";
+    bg = "https://i.ibb.co/RDfPqXz/pcn.jpg";
   } else if (condition === "rain") {
-    bg = "https://th.bing.com/th/id/OIP.fKd5u-LZ22Q78HfwW_6jywHaEo?w=310&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7";
+    bg = "https://i.ibb.co/h2p6Yhd/rain.webp";
   } else if (condition === "clear-day") {
-    bg = "https://th.bing.com/th/id/OIP.fKd5u-LZ22Q78HfwW_6jywHaEo?w=310&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7";
+    bg = "https://i.ibb.co/WGry01m/cd.jpg";
   } else if (condition === "clear-night") {
-    bg = "https://th.bing.com/th/id/OIP.fKd5u-LZ22Q78HfwW_6jywHaEo?w=310&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7";
+    bg = "https://i.ibb.co/kqtZ1Gx/cn.jpg";
+  } else if (condition === "cloudy") {
+    return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgU62FZ8ajEPtqiS1S8pgHkwL-DmdntsTD8Q&usqp=CAU";
+  } else if (condition === "snow") {
+    return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXLoupWIPbipGXnaFqSwIxPNInsRXIOOb7hQ&usqp=CAU";
   } else {
-    bg = "https://th.bing.com/th/id/OIP.fKd5u-LZ22Q78HfwW_6jywHaEo?w=310&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7";
+    bg = "https://i.ibb.co/qNv7NxZ/pc.webp";
   }
   body.style.backgroundImage = `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(${bg})`;
 }
 
+//get hours from hh:mm:ss
 function getHour(time) {
   let hour = time.split(":")[0];
   let min = time.split(":")[1];
@@ -468,6 +467,7 @@ function changeTimeSpan(unit) {
     getWeatherData(currentCity, currentUnit, hourlyorWeek);
   }
 }
+
 
 
 // Cities add your own to get in search
