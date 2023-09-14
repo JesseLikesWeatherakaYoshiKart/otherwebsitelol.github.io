@@ -180,6 +180,10 @@ function getIcon(condition) {
     return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/20.png?raw=true";
   } else if (condition === "snow") {
     return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/10.png?raw=true";
+   } else if (condition === "fog") {
+    return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/15.png?raw=true";
+   } else if (condition === "wind") {
+    return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/18.png?raw=true";
   } else {
     return "https://github.com/brenden7158/Weatherscan/blob/master/webroot/images/icons2007/05.png?raw=true";
   }
