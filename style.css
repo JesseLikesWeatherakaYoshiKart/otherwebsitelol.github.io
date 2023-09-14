@@ -21,6 +21,7 @@ body {
   background-size: cover;
   background-position: center;
   transition: background-image 0.3s ease;
+  height: 1200px;
 }
 img {
   width: 100%;
