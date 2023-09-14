@@ -24,8 +24,8 @@ const temp = document.getElementById("temp"),
   weekBtn = document.querySelector(".week"),
   weatherCards = document.querySelector("#weather-cards");
 
-let currentCity = "Washington, DC, United States";
-let currentUnit = "f";
+let currentCity = "";
+let currentUnit = "c";
 let hourlyorWeek = "week";
 
 // function to get date and time
@@ -35,13 +35,13 @@ function getDateTime() {
     minute = now.getMinutes();
 
   let days = [
-    "Sun",
-    "Mon",
-    "Tue",
-    "Wed",
-    "Thu",
-    "Fri",
-    "Sat",
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
   ];
   // 12 hours format
   hour = hour % 12;
