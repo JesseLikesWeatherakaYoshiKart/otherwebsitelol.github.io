@@ -1,49 +1,55 @@
-<link rel="stylesheet" href="style.css">
- <div class="header">
-  <body style="background-color:#1c87c9;">
-   <link rel="icon" type="image/x-icon" href=otherwebsitelo.github.io\favicon.ico"
-  <h1><center>The Current Conditons</center></h1>
-              <form class="search" id="search">
-            <input type="text" id="query" placeholder="Search for Cities!" />
-            <button><i><img id="fas fa-search" src="https://img.icons8.com/?size=70&id=0R4UN0Muj1DX&format=png" class="fas fa-search"></i></button>
-                 <div class="weather-icon">
-            <img id="icon" src="https://files.readme.io/48b265b-weather_icon_small_ic_clear3x.png" alt="" />
+    <div class="wrapper">
+      <div class="sidebar">
+        <div>
+          <form class="search" id="search">
+            <input type="text" id="query" placeholder="Search for a city." />
+            <button><i class="fas fa-search"></i></button>
+          </form>
+          <div class="weather-icon">
+            <img id="icon" src="icons/sun/4.png" alt="" />
           </div>
           <div class="temperature">
             <h1 id="temp">0</h1>
-            <span class="temp-unit">°F</span>
+            <span class="temp-unit">°C</span>
           </div>
           <div class="date-time">
-         <h3> It is currently: </h3>
-            <p id="date-time">Mon, 12:00</p>
+            <p id="date-time">Monday, 12:00</p>
           </div>
           <div class="divider"></div>
           <div class="condition-rain">
             <div class="condition">
               <i class="fas fa-cloud"></i>
-              <h2 id="condition">condition</h2>
+              <p id="condition">condition</p>
             </div>
             <div class="rain">
               <i class="fas fa-tint"></i>
               <p id="rain">perc - 0%</p>
-          </div>
-          <div class="location-text">
-            <h2 id="location">location</h2>
+            </div>
           </div>
         </div>
-  <div class="wrapper">
-      <div class="sidebar">
-         </div>
+        <div class="location">
+          <div class="location-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="location-text">
+            <p id="location">location</p>
           </div>
         </div>
       </div>
       <div class="main">
         <nav>
+          <ul class="options">
+            <button class="hourly">today</button>
+            <button class="week active">week</button>
+          </ul>
+          <ul class="options units">
+            <button class="celcius active">°C</button>
+            <button class="fahrenheit">°F</button>
           </ul>
         </nav>
         <div class="cards" id="weather-cards"></div>
         <div class="highlights">
-           <h1 class="heading">today's highlights</h1>
+          <h2 class="heading">today's highlights</h2>
           <div class="cards">
             <div class="card2">
               <h4 class="card-heading">UV Index</h4>
@@ -53,10 +59,10 @@
               </div>
             </div>
             <div class="card2">
-              <h4 class="card-heading">Wind:</h4>
+              <h4 class="card-heading">Wind Status</h4>
               <div class="content">
                 <p class="wind-speed">0</p>
-                <p>mph</p>
+                <p>km/h</p>
               </div>
             </div>
             <div class="card2">
