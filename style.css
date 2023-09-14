@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
   --primary-color: #5598fd;
@@ -22,7 +22,6 @@ body {
   background-size: cover;
   background-position: center;
   transition: background-image 0.3s ease;
-  font-family: Interstate;
 }
 img {
   width: 100%;
