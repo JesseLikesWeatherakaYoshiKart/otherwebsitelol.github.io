@@ -22,6 +22,7 @@ const temp = document.getElementById("temp"),
   tempUnit = document.querySelectorAll(".temp-unit"),
   hourlyBtn = document.querySelector(".hourly"),
   weekBtn = document.querySelector(".week"),
+  outlookBtn = document.querySelector(".spcoutlook"),
   weatherCards = document.querySelector("#weather-cards");
 
 let currentCity = "";
@@ -337,7 +338,7 @@ searchForm.addEventListener("submit", (e) => {
 
 // function to conver celcius to fahrenheit
 function celciusToFahrenheit(temp) {
-  return ((temp * 9) / 5 + 32 + 5).toFixed(0);
+  return ((temp * 9) / 5 + 32 + 4).toFixed(1);
 }
 
 
