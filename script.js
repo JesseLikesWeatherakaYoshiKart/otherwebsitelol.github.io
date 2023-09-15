@@ -5721,6 +5721,727 @@ cities = [
     longitude: ''
   },
   {
+    name: 'Abrdeen, MD',
+    countryCode: 'US',
+    stateCode: '',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: 'Hamliton, Bermuda',
+    countryCode: 'US',
+    stateCode: '',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: 'Tuscaloosa',
+    countryCode: 'US',
+    stateCode: 'AL',
+    latitude: '',
+    longitude: ''
+  },
+  {
+    name: 'Adams',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '43.80923000',
+    longitude: '-76.02409000'
+  },
+  {
+    name: 'Adams Center',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '43.86006000',
+    longitude: '-76.00548000'
+  },
+  {
+    name: 'Addison',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.10285000',
+    longitude: '-77.23359000'
+  },
+  {
+    name: 'Airmont',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '41.10093000',
+    longitude: '-74.11625000'
+  },
+  {
+    name: 'Akron',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '43.02089000',
+    longitude: '-78.49530000'
+  },
+  {
+    name: 'Alabama',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '43.09645000',
+    longitude: '-78.39086000'
+  },
+  {
+    name: 'Albany',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.65258000',
+    longitude: '-73.75623000'
+  },
+  {
+    name: 'Albany County',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.60018000',
+    longitude: '-73.97356000'
+  },
+  {
+    name: 'Albertson',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.77343000',
+    longitude: '-73.64318000'
+  },
+  {
+    name: 'Albion',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '43.24645000',
+    longitude: '-78.19363000'
+  },
+  {
+    name: 'Alden',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.90006000',
+    longitude: '-78.49197000'
+  },
+  {
+    name: 'Alexandria Bay',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '44.33588000',
+    longitude: '-75.91773000'
+  },
+  {
+    name: 'Alfred',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.25424000',
+    longitude: '-77.79055000'
+  },
+  {
+    name: 'Allegany',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.09006000',
+    longitude: '-78.49419000'
+  },
+  {
+    name: 'Allegany County',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.25739000',
+    longitude: '-78.02756000'
+  },
+  {
+    name: 'Altamont',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.70063000',
+    longitude: '-74.03374000'
+  },
+  {
+    name: 'Amagansett',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.97371000',
+    longitude: '-72.14369000'
+  },
+  {
+    name: 'Amherst',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.97839000',
+    longitude: '-78.79976000'
+  },
+  {
+    name: 'Amityville',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.67899000',
+    longitude: '-73.41707000'
+  },
+  {
+    name: 'Amsterdam',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.93869000',
+    longitude: '-74.18819000'
+  },
+  {
+    name: 'Andover',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.15646000',
+    longitude: '-77.79555000'
+  },
+  {
+    name: 'Angola',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.63839000',
+    longitude: '-79.02782000'
+  },
+  {
+    name: 'Angola on the Lake',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.65478000',
+    longitude: '-79.04893000'
+  },
+  {
+    name: 'Apalachin',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.06952000',
+    longitude: '-76.15465000'
+  },
+  {
+    name: 'Aquebogue',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.94454000',
+    longitude: '-72.62704000'
+  },
+  {
+    name: 'Arcade',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.53395000',
+    longitude: '-78.42307000'
+  },
+  {
+    name: 'Ardsley',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '41.01065000',
+    longitude: '-73.84375000'
+  },
+  {
+    name: 'Arlington',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '41.69593000',
+    longitude: '-73.89680000'
+  },
+  {
+    name: 'Armonk',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '41.12648000',
+    longitude: '-73.71402000'
+  },
+  {
+    name: 'Arrochar',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.59844000',
+    longitude: '-74.07264000'
+  },
+  {
+    name: 'Arverne',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.59122000',
+    longitude: '-73.79597000'
+  },
+  {
+    name: 'Astoria',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.77205000',
+    longitude: '-73.93014000'
+  },
+  {
+    name: 'Athens',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.26036000',
+    longitude: '-73.80957000'
+  },
+  {
+    name: 'Atlantic Beach',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.58899000',
+    longitude: '-73.72902000'
+  },
+  {
+    name: 'Attica',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.86423000',
+    longitude: '-78.28029000'
+  },
+  {
+    name: 'Auburn',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.93173000',
+    longitude: '-76.56605000'
+  },
+  {
+    name: 'Augusta',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.97479000',
+    longitude: '-75.50129000'
+  },
+  {
+    name: 'Averill Park',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.63397000',
+    longitude: '-73.55373000'
+  },
+  {
+    name: 'Avon',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.91201000',
+    longitude: '-77.74556000'
+  },
+  {
+    name: 'Babylon',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.69566000',
+    longitude: '-73.32568000'
+  },
+  {
+    name: 'Bainbridge',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.29341000',
+    longitude: '-75.47935000'
+  },
+  {
+    name: 'Baiting Hollow',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.95621000',
+    longitude: '-72.74427000'
+  },
+  {
+    name: 'Baldwin',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.65649000',
+    longitude: '-73.60930000'
+  },
+  {
+    name: 'Baldwin Harbor',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.63955000',
+    longitude: '-73.60846000'
+  },
+  {
+    name: 'Baldwinsville',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '43.15868000',
+    longitude: '-76.33271000'
+  },
+  {
+    name: 'Ballston Spa',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '43.00091000',
+    longitude: '-73.84901000'
+  },
+  {
+    name: 'Balmville',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '41.53482000',
+    longitude: '-74.01486000'
+  },
+  {
+    name: 'Bardonia',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '41.10954000',
+    longitude: '-73.99625000'
+  },
+  {
+    name: 'Barnum Island',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.60455000',
+    longitude: '-73.64402000'
+  },
+  {
+    name: 'Batavia',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.99812000',
+    longitude: '-78.18752000'
+  },
+  {
+    name: 'Bath',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.33702000',
+    longitude: '-77.31776000'
+  },
+  {
+    name: 'Bath Beach',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.60455000',
+    longitude: '-74.00431000'
+  },
+  {
+    name: 'Baxter Estates',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.83482000',
+    longitude: '-73.69541000'
+  },
+  {
+    name: 'Bay Park',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.63316000',
+    longitude: '-73.67041000'
+  },
+  {
+    name: 'Bay Shore',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.72510000',
+    longitude: '-73.24539000'
+  },
+  {
+    name: 'Bay Wood',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.75010000',
+    longitude: '-73.29123000'
+  },
+  {
+    name: 'Baychester',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.86928000',
+    longitude: '-73.83645000'
+  },
+  {
+    name: 'Bayport',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.73843000',
+    longitude: '-73.05067000'
+  },
+  {
+    name: 'Bayside',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.76844000',
+    longitude: '-73.77708000'
+  },
+  {
+    name: 'Bayville',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.91065000',
+    longitude: '-73.56207000'
+  },
+  {
+    name: 'Beacon',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '41.50482000',
+    longitude: '-73.96958000'
+  },
+  {
+    name: 'Beaver Dam Lake',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '41.44743000',
+    longitude: '-74.11463000'
+  },
+  {
+    name: 'Beaverdam Lake-Salisbury Mills',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '41.44162000',
+    longitude: '-74.11629000'
+  },
+  {
+    name: 'Bedford',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '41.20426000',
+    longitude: '-73.64374000'
+  },
+  {
+    name: 'Bedford Hills',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '41.23676000',
+    longitude: '-73.69458000'
+  },
+  {
+    name: 'Bellaire',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.71399000',
+    longitude: '-73.75402000'
+  },
+  {
+    name: 'Belle Harbor',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.57594000',
+    longitude: '-73.84819000'
+  },
+  {
+    name: 'Bellerose',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.72427000',
+    longitude: '-73.71513000'
+  },
+  {
+    name: 'Bellerose Terrace',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.72066000',
+    longitude: '-73.72596000'
+  },
+  {
+    name: 'Bellmore',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.66871000',
+    longitude: '-73.52707000'
+  },
+  {
+    name: 'Bellport',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.75704000',
+    longitude: '-72.93927000'
+  },
+  {
+    name: 'Belmont',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.22312000',
+    longitude: '-78.03445000'
+  },
+  {
+    name: 'Bensonhurst',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.60177000',
+    longitude: '-73.99403000'
+  },
+  {
+    name: 'Bergen',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '43.08534000',
+    longitude: '-77.94223000'
+  },
+  {
+    name: 'Bergen Beach',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.62038000',
+    longitude: '-73.90680000'
+  },
+  {
+    name: 'Bethpage',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.74427000',
+    longitude: '-73.48207000'
+  },
+  {
+    name: 'Big Flats',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.13730000',
+    longitude: '-76.93691000'
+  },
+  {
+    name: 'Billington Heights',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.78423000',
+    longitude: '-78.62642000'
+  },
+  {
+    name: 'Binghamton',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.09869000',
+    longitude: '-75.91797000'
+  },
+  {
+    name: 'Black River',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '44.01256000',
+    longitude: '-75.79437000'
+  },
+  {
+    name: 'Blasdell',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.79728000',
+    longitude: '-78.82337000'
+  },
+  {
+    name: 'Blauvelt',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '41.06343000',
+    longitude: '-73.95764000'
+  },
+  {
+    name: 'Bloomfield',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.61260000',
+    longitude: '-74.17820000'
+  },
+  {
+    name: 'Blue Point',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.74399000',
+    longitude: '-73.03455000'
+  },
+  {
+    name: 'Bohemia',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.76926000',
+    longitude: '-73.11511000'
+  },
+  {
+    name: 'Bolivar',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.06673000',
+    longitude: '-78.16779000'
+  },
+  {
+    name: 'Boonville',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '43.48368000',
+    longitude: '-75.33656000'
+  },
+  {
+    name: 'Borough Park',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.63399000',
+    longitude: '-73.99681000'
+  },
+  {
+    name: 'Boston',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '42.62895000',
+    longitude: '-78.73753000'
+  },
+  {
+    name: 'Brentwood',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.78121000',
+    longitude: '-73.24623000'
+  },
+  {
+    name: 'Brewerton',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '43.23812000',
+    longitude: '-76.14076000'
+  },
+  {
+    name: 'Brewster',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '41.39732000',
+    longitude: '-73.61707000'
+  },
+  {
+    name: 'Brewster Hill',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '41.42398000',
+    longitude: '-73.60429000'
+  },
+  {
+    name: 'Briarcliff Manor',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '41.14565000',
+    longitude: '-73.82375000'
+  },
+  {
+    name: 'Briarwood',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.70935000',
+    longitude: '-73.81529000'
+  },
+  {
+    name: 'Bridgehampton',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.93788000',
+    longitude: '-72.30092000'
+  },
+  {
+    name: 'Bridgeport',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '43.15535000',
+    longitude: '-75.96936000'
+  },
+  {
+    name: 'Brighton',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '43.14756000',
+    longitude: '-77.55055000'
+  },
+  {
+    name: 'Brighton Beach',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.57788000',
+    longitude: '-73.95958000'
+  },
+  {
+    name: 'Brightwaters',
+    countryCode: 'US',
+    stateCode: 'NY',
+    latitude: '40.72093000',
+    longitude: '',
+   },
+   {
     name: 'Woonsocket',
     countryCode: 'US',
     stateCode: 'RI',
