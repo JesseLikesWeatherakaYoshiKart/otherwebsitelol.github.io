@@ -338,7 +338,7 @@ searchForm.addEventListener("submit", (e) => {
 
 // function to conver celcius to fahrenheit
 function celciusToFahrenheit(temp) {
-  return ((temp * 9) / 5 + 32 + 4).toFixed(1);
+  return ((temp * 9) / 5 + 32).toFixed(1);
 }
 
 
