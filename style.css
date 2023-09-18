@@ -23,6 +23,7 @@ body {
   transition: background-image 0.3s ease;
   height: 1200px;
   translate: -15px;
+  font-family: Interstate
 }
 img {
   width: 100%;
